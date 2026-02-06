@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-function home() {
+function Home() {
   return (
     <div>
       {/* header section start */}
@@ -362,9 +363,8 @@ function home() {
       </section>
       <div className="borders"></div>
       {/* contact section ends */}
-
     </div>
-  )
+  );
 }
 
-export default home
+export default Home;
